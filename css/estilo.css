@@ -1,0 +1,57 @@
+#meu_menu {
+  /*abrindo id do menu */
+  text-align: right;
+  /* padding margem interna */
+  padding-right: 60px;
+  /* colocando borda interior */
+  border-bottom: solid;
+  /* tamanho da fonte do menu*/
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}/* fechando o id do menu */
+
+#meu_menu{
+  text-decoration: none;
+  color: #868da4;
+}
+/* chamando a classe mae */
+#meu_menu a:hover {
+  text-decoration: none;
+  color: #070706;
+  background-color: #fcfefffa;
+  transition: 0.5;
+  opacity: 0.3;
+}
+/* trabalhando com  */
+.titulo{
+  text-align: center;
+  background-color: #0ce1f0;
+
+border-style: double;
+border-radius: 7px;
+border-color: #0eefef;
+color: #00ffc867;
+border-block-width: 8px;
+}
+/* trabalhando com a div na imagem */
+#fundo{
+  display: flex;
+  justify-content: center 
+}
+img{
+  width: 20%;
+}
+/* trabalhando com a div principal */
+.master{
+  display: flex;
+}
+.col_esquerda{
+  margin-right: 35px;
+  text-align: justify;
+}
+
+  .col_direita{
+    margin-right: 35px;
+    text-align: justify;
+}
+  
